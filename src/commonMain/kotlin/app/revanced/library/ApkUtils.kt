@@ -157,6 +157,7 @@ object ApkUtils {
         outputApkFile: File,
         signer: String,
         keyStoreDetails: KeyStoreDetails,
+        signLevels: List<Int> = listOf(),
     ) = ApkSigner.newApkSigner(
         signer,
         if (keyStoreDetails.keyStore.exists()) {
@@ -164,7 +165,7 @@ object ApkUtils {
         } else {
             newPrivateKeyCertificatePair(PrivateKeyCertificatePairDetails(), keyStoreDetails)
         },
-    ).signApk(inputApkFile, outputApkFile)
+    ).signApk(inputApkFile, outputApkFile, signLevels)
 
     /**
      * Details for a keystore.
