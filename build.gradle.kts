@@ -29,6 +29,14 @@ repositories {
     maven { url = uri("https://jitpack.io") }
     maven {
         // A repository must be speficied for some reason. "registry" is a dummy.
+        url = uri("https://maven.pkg.github.com/zjns/registry")
+        credentials {
+            username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
+            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+        }
+    }
+    maven {
+        // A repository must be speficied for some reason. "registry" is a dummy.
         url = uri("https://maven.pkg.github.com/sti-233/registry")
         credentials {
             username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
