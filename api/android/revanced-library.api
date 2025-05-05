@@ -21,13 +21,15 @@ public final class app/revanced/library/ApkSigner$PrivateKeyCertificatePair {
 }
 
 public final class app/revanced/library/ApkSigner$Signer {
-	public final fun signApk (Ljava/io/File;Ljava/io/File;)V
+	public final fun signApk (Ljava/io/File;Ljava/io/File;Ljava/util/List;)V
+	public static synthetic fun signApk$default (Lapp/revanced/library/ApkSigner$Signer;Ljava/io/File;Ljava/io/File;Ljava/util/List;ILjava/lang/Object;)V
 }
 
 public final class app/revanced/library/ApkUtils {
 	public static final field INSTANCE Lapp/revanced/library/ApkUtils;
 	public final fun applyTo (Lapp/revanced/patcher/PatcherResult;Ljava/io/File;)V
-	public final fun signApk (Ljava/io/File;Ljava/io/File;Ljava/lang/String;Lapp/revanced/library/ApkUtils$KeyStoreDetails;)V
+	public final fun signApk (Ljava/io/File;Ljava/io/File;Ljava/lang/String;Lapp/revanced/library/ApkUtils$KeyStoreDetails;Ljava/util/List;)V
+	public static synthetic fun signApk$default (Lapp/revanced/library/ApkUtils;Ljava/io/File;Ljava/io/File;Ljava/lang/String;Lapp/revanced/library/ApkUtils$KeyStoreDetails;Ljava/util/List;ILjava/lang/Object;)V
 }
 
 public final class app/revanced/library/ApkUtils$KeyStoreDetails {
