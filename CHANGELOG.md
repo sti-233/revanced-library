@@ -1,3 +1,17 @@
+# [3.2.0](https://github.com/sti-233/revanced-library/compare/v3.1.0...v3.2.0) (2025-05-05)
+
+
+### Bug Fixes
+
+* api ([a00e55d](https://github.com/sti-233/revanced-library/commit/a00e55de48d87fe4977e71fd4bf4c82531627692))
+* api ([2ea4d84](https://github.com/sti-233/revanced-library/commit/2ea4d845e2c844bb7f64ad4d23c8b824372eddce))
+* build ([5d43b31](https://github.com/sti-233/revanced-library/commit/5d43b311f47cf230b49f351ed783d4e4da273b05))
+
+
+### Features
+
+* customize signing level ([005bd9d](https://github.com/sti-233/revanced-library/commit/005bd9dc47e936227a04ea348a1042ea7985a7ae))
+
 # [3.1.0](https://github.com/ReVanced/revanced-library/compare/v3.0.2...v3.1.0) (2024-11-27)
 
 
